@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="350.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NewUserPageController">
+   <children>
+      <Button fx:id="newUser" layoutX="87.0" layoutY="229.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="40.0" prefWidth="187.0" text="Submit" />
+      <Text layoutX="17.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter a New Username" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="31.0" />
+         </font>
+      </Text>
+      <TextField fx:id="newUserName" layoutX="85.0" layoutY="144.0" prefHeight="31.0" prefWidth="187.0" />
+   </children>
+</AnchorPane>

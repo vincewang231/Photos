@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddPhotoController">
+   <children>
+      <StackPane fx:id="imageDisplay" layoutX="14.0" layoutY="86.0" prefHeight="297.0" prefWidth="361.0" />
+      <TextField fx:id="nameField" layoutX="570.0" layoutY="95.0" />
+      <Text layoutX="389.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name Of Photo" wrappingWidth="140.9999885559082">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="selectImageButton" layoutX="142.0" layoutY="34.0" mnemonicParsing="false" onAction="#buttonPress" text="Select Image" />
+      <TextField fx:id="captionField" layoutX="570.0" layoutY="160.0" />
+      <Text layoutX="389.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption Of Photo" wrappingWidth="162.9999885559082">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="enterTagButton" layoutX="570.0" layoutY="219.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="31.0" prefWidth="187.0" text="Enter Tags" />
+      <Text layoutX="389.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tags For Photo" wrappingWidth="162.9999885559082">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="addPhotoButton" layoutX="604.0" layoutY="318.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="31.0" prefWidth="119.0" text="Add Photo" />
+      <Button fx:id="cancelButton" layoutX="433.0" layoutY="318.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="31.0" prefWidth="119.0" text="Cancel" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MovePhotoController">
+   <children>
+      <ScrollPane fx:id="checkBoxDisplay" layoutX="21.0" layoutY="20.0" prefHeight="262.0" prefWidth="146.0">
+         <content>
+            <VBox fx:id="indivCheckbox" prefHeight="200.0" prefWidth="100.0" />
+         </content>
+      </ScrollPane>
+      <Button fx:id="submitButton" layoutX="183.0" layoutY="201.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="81.0" prefWidth="102.0" text="Move Photo To Selected Album" wrapText="true" />
+      <Button fx:id="backButton" layoutX="202.0" layoutY="20.0" mnemonicParsing="false" onAction="#buttonPress" text="Back" />
+   </children>
+</AnchorPane>
